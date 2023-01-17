@@ -16,11 +16,11 @@ services:
       - MYSQL_ROOT_PASSWORD=admin
   redis:
     image: redis:latest
-  vueblog:
-    image: vueblog:latest
-    build: .
-    ports:
-    - 8081:8081
-    depends_on:
-      - mysql
-      - redis
+#  vueblog:
+#    image: vueblog:latest
+#    build: .
+#    ports:
+#    - 8081:8081
+#    depends_on:
+#      - mysql
+#      - redis
